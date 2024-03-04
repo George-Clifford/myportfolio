@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary {
+    position: relative;
+    transition: transform 0.4s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-4px);
+}
+
+.card-service {
+    position: relative;
+    transition: transform 0.4s ease;
+}
+
+.card-service:hover {
+    transform: translateY(-5px);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.4s ease;
+}
+
+.grayscale:hover {
+    filter: none;
+}
